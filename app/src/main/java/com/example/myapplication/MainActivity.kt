@@ -26,5 +26,9 @@ class MainActivity : AppCompatActivity() {
             textView.text = "Sw pasaulis :3"
         }
 
+        val btnChangeTextColor: Button = findViewById(R.id.btnChangeTextColor)
+        btnChangeTextColor.setOnClickListener {
+            textView.setTextColor(Color.RED)
+        }
     }
 }
